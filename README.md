@@ -9,7 +9,7 @@ This project demonstrates how to capture and analyze basic HTTP traffic using tc
 2. Identified my active network interface using `tcpdump -D`.  
 3. Captured 10 HTTP packets with:  
    sudo tcpdump -i en0 tcp port 80 -c 10 -w http_traffic.pcap
-4. Opened example.com in my browser while capturing traffic.
+4. Opened https://www.youtube.com in my browser while capturing traffic.
 5. Read the packets with 'tcpdump -r http_traffic.pcap' and observed the TCP 3-way handshake.
 
 ## Key Takeaways
