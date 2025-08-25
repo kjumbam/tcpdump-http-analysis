@@ -12,6 +12,15 @@ This project demonstrates how to capture and analyze basic HTTP traffic using tc
 4. Opened https://www.youtube.com in my browser while capturing traffic.
 5. Read the packets with 'tcpdump -r http_traffic.pcap' and observed the TCP 3-way handshake.
 
+## Screenshots
+
+
+<img width="938" height="626" alt="SCREEN 1" src="https://github.com/user-attachments/assets/ae56fb1f-d005-4db8-bb19-d791a30dda71" />
+
+
+<img width="1680" height="771" alt="SCREEN 2" src="https://github.com/user-attachments/assets/40ed677a-a717-4add-8f2f-4dc193a258e6" />
+
+
 ## Key Takeaways
 - Learned how to capture live traffic.
 - Understood the TCP 3-way handshake (SYN → SYN-ACK → ACK).
